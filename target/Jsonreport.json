@@ -1,0 +1,252 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-23T04:41:02.245Z",
+        "line": 3,
+        "name": "Validate register functionality",
+        "description": "",
+        "id": "test-testmeapp;validate-register-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23862647400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open the application",
+            "match": {
+              "location": "teststepfile.open_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 571413400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter the user name as \"sathiyanarayanan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sathiyanarayanan\"",
+                  "offset": 23
+                }
+              ],
+              "location": "teststepfile.enter_the_user_name_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 251399400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter first name as \"sathiya\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sathiya\"",
+                  "offset": 20
+                }
+              ],
+              "location": "teststepfile.enter_first_name_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 282733800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter last name as \"narayanan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"narayanan\"",
+                  "offset": 19
+                }
+              ],
+              "location": "teststepfile.enter_last_name_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 356075400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the password details as \"gayathri123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gayathri123\"",
+                  "offset": 30
+                }
+              ],
+              "location": "teststepfile.enter_the_password_details_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231899100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter confrim password as \"gayathri123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gayathri123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "teststepfile.enter_confrim_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168044500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Select the gender",
+            "match": {
+              "location": "teststepfile.select_the_gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 444194000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter the emailid as \"sathiya@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sathiya@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "teststepfile.enter_the_emailid_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 318630100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter the mobile number as \"9876543210\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9876543210\"",
+                  "offset": 27
+                }
+              ],
+              "location": "teststepfile.enter_the_mobile_number_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312038100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter dob as \"19/01/1998\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"19/01/1998\"",
+                  "offset": 13
+                }
+              ],
+              "location": "teststepfile.enter_dob_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225219500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter the address as \"asdfghjklz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"asdfghjklz\"",
+                  "offset": 21
+                }
+              ],
+              "location": "teststepfile.enter_the_address_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213458800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select the security questions",
+            "match": {
+              "location": "teststepfile.select_the_security_questions()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 235171400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter the answer for the qns as \"pink\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pink\"",
+                  "offset": 32
+                }
+              ],
+              "location": "teststepfile.enter_the_answer_for_the_qns_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1182097800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click register",
+            "match": {
+              "location": "teststepfile.click_register()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test TestMeApp",
+    "description": "Test the TestMeApp application",
+    "id": "test-testmeapp",
+    "keyword": "Feature",
+    "uri": "file:sathiya/test.feature",
+    "tags": []
+  }
+]
